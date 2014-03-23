@@ -1,0 +1,50 @@
+﻿@model GoerTekLover.Models.MenuModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>MenuModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MenuName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MenuName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MenuDisplayName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MenuDisplayName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MenuLink)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MenuLink)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ParentMenuId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ParentMenuId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Description)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Description)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.MenuId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

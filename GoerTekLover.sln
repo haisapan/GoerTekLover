@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoerTekLover", "GoerTekLover\GoerTekLover.csproj", "{C86BA4B6-150E-4E22-A505-51444B0846F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoerTekLover.Tests", "GoerTekLover.Tests\GoerTekLover.Tests.csproj", "{64C90C81-21A7-42D2-88D0-C09E7FF496E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaisaBaseLibrary", "HaisaBaseLibrary\HaisaBaseLibrary.csproj", "{1EDB5338-9DCF-4DCC-8C45-47C3B09BF797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haisa.Resource", "Haisa.Resource\Haisa.Resource.csproj", "{D4A30671-C4C5-4AF3-A14E-0FA9B428C62C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C86BA4B6-150E-4E22-A505-51444B0846F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86BA4B6-150E-4E22-A505-51444B0846F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86BA4B6-150E-4E22-A505-51444B0846F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86BA4B6-150E-4E22-A505-51444B0846F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C90C81-21A7-42D2-88D0-C09E7FF496E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C90C81-21A7-42D2-88D0-C09E7FF496E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C90C81-21A7-42D2-88D0-C09E7FF496E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C90C81-21A7-42D2-88D0-C09E7FF496E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDB5338-9DCF-4DCC-8C45-47C3B09BF797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDB5338-9DCF-4DCC-8C45-47C3B09BF797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDB5338-9DCF-4DCC-8C45-47C3B09BF797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDB5338-9DCF-4DCC-8C45-47C3B09BF797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A30671-C4C5-4AF3-A14E-0FA9B428C62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A30671-C4C5-4AF3-A14E-0FA9B428C62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A30671-C4C5-4AF3-A14E-0FA9B428C62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A30671-C4C5-4AF3-A14E-0FA9B428C62C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<GoerTekLover.Models.MenuModel>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuDisplayName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ParentMenuId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MenuName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MenuDisplayName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MenuLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ParentMenuId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MenuId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MenuId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MenuId })
+        </td>
+    </tr>
+}
+
+</table>
